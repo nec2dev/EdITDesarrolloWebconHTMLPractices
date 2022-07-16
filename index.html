@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <label for="">Nombre:<span>*</span> <input type="text" required placeholder="Nombre Completo"
+                    maxlength="10"></label>
+            <label for="">Apellido:<span>*</span> <input type="text" required></label>
+            <label for="">Edad: <input type="number" min="18" max="120"></label>
+            <label for="">mail:<span>*</span> <input type="email" required></label>
+            <label for="">password:<span>*</span> <input type="password" required></label>
+            <label for="">telefono: <input type="phone" placeholder="+54 011 xxxx-xxxx"></label>
+            <label for="">Comentario: <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese su comentario aqui"></textarea></label>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+    </form>
+    <form>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+        <input type="file" name="Adjuntar" accept=".pdf,.jpg,.png" multiple />
+    </form>
+    <form>
+        <input type="checkbox" id="html" name="fav_language" value="HTML">
+        <label for="html">SaSS</label><br>
+        <input type="checkbox" id="css" name="fav_language" value="CSS">
+        <label for="css">LeSS</label><br>
+        <input type="checkbox" id="javascript" name="fav_language" value="JavaScript" checked>
+        <label for="javascript">NodeJS</label>
+        </fieldset>
+    </form>
+
+    <select>
+        <option value=”opcion1”>Opcion 1 </option>
+        <option value=”opcion2”>Opcion 2 </option>
+        <option value=”opcion3”>Opcion 3 </option>
+        <option value=”opcion4” selected>Opcion 4 </option>
+    </select>
+
+    <form>
+        <fieldset>
+            <legend>Datos personales</legend>
+            Nombre: <input type=”text”><br>
+            E-mail: <input type=”text”><br>
+            Edad: <input type=”number”>
+        </fieldset>
+    </form>
+</body>
+
+</html>
